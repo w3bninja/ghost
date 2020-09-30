@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-sm-10">
+        <small>{{{ meta.description }}}</small>
+    </div>
+    <div class="col-sm-2 text-right">
+        <a href="https://contrast-grid.eightshapes.com/?background-colors=&foreground-colors={{# items }}%23{{ hex }}%0D%0A{{ comment }}{{/ items }}" target="_blank">Color Contrast</a>
+    </div>
+</div>
+<div class="row sg-colors">
+    {{# items }}
+    <div class="col-sm-2">
+        <div class="sg-color">
+            <span class="sg-swatch" style="background: {{ value }};"></span>
+            <ul class="sg-label">
+                <li>{{ name }}</li>
+                <li>{{ value }}</li>
+                <li>{{ comment }}</li>
+            </ul>
+        </div>
+    </div>
+    {{/ items }}
+</div>
+<!--end sg-colors-->
+
+

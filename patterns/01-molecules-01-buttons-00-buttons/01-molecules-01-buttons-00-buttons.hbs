@@ -1,0 +1,66 @@
+{{#> molecules-layout-container }}
+    <div class="row">
+        
+        <div class="col-sm-12">
+            <h3 class="pl_title">Primary</h3>
+            <small>This is the main button style. All other button styling is based off of the settings of this button.</small>
+            <pre>.btn-primary</pre>
+        </div>
+        <div class="col-sm-2">Normal</div>
+        <div class="col-sm-2">Hover</div>
+        <div class="col-sm-2">Disabled</div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-primary"}}</div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-primary active"}}</div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-primary disabled"}}</div>
+        <div class="col-sm-12">
+            <h3 class="pl_title">Secondary</h3>
+            <small>This is an alternative button style. It should only be used when the primary button is already in use and a secondary button is needed.</small>
+            <pre>.btn-secondary</pre>
+        </div>
+        <div class="col-sm-2">Normal</div>
+        <div class="col-sm-2">Hover</div>
+        <div class="col-sm-2">Disabled</div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-secondary"}}</div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-secondary active"}}</div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-secondary disabled"}}</div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-sm-12"><h3 class="pl_title">Icon Placement</h3></div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-primary" buttonIcon="search" buttonText=""}}</div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-primary" buttonIcon="search" buttonText="Button"}}</div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-sm-12"><h3 class="pl_title">Action</h3></div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-success"}}</div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-danger"}}</div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-warning"}}</div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-info"}}</div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-light"}}</div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-dark"}}</div>
+        <div class="col-sm-12"><h3 class="pl_title">Outlined</h3></div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-outline-success"}}</div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-outline-danger"}}</div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-outline-warning"}}</div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-outline-info"}}</div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-outline-light"}}</div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-outline-dark"}}</div>
+        <div class="col-sm-12"><h3 class="pl_title">Sizes</h3></div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-primary btn-sm"}}</div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-primary btn-lg"}}</div>
+        <div class="col-sm-2">{{> molecules-button styleModifier="btn-primary btn-block"}}</div>
+    </div>
+{{/ molecules-layout-container}}
+
+<h3>Other</h3>
+
+{{> molecules-button styleModifier="btn-link"}}
+
+

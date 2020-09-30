@@ -1,0 +1,37 @@
+.nav{
+    li{
+        a{padding:0.5em; display:block;
+            &:hover{text-decoration:none;}
+        }
+    }
+    &.nav-primary{
+        li{
+            a{
+                &:hover{background:$color-neutral-gray-07;}
+            }
+        }
+    }
+    &.nav-secondary{
+        li{
+            a{font-size:0.8em;
+                &:hover{background:$color-brand-blue-01;}
+            }
+        }
+    }
+    &.nav-footer{
+        li{
+            a{font-size:0.9em; padding:0.1em; color:$color-brand-blue;
+                &:hover{background:$color-neutral-gray-13;}
+            }
+        }
+    }
+    &.nav-language{
+        li{border-left:1px solid $color-neutral-gray-07;
+            &:first-child{border:0;}
+            a{font-size:0.9em; padding:0.2em 0.5em; color:$color-brand-blue;
+                &:hover{background:$color-neutral-gray-13;}
+            }
+        }
+    }
+}
+

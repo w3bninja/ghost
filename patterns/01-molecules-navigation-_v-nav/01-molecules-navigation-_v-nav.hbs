@@ -1,0 +1,13 @@
+<div class="v-nav nav-section">
+    <h6>{{title}}</h6>
+    {{#> molecules-nav-container styleModifier="flex-column" }}
+        {{# links }}
+            {{> molecules-nav-child }}
+        {{/ links }}
+    {{/ molecules-nav-container}}
+    {{#if description.length}}
+        <div class="desc">
+            {{description}}
+        </div>
+    {{/if}}
+</div>

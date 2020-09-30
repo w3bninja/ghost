@@ -1,0 +1,42 @@
+{{#> molecules-layout-container }}
+<small>{{{ meta.description }}}</small>
+
+<ul>
+    {{# items }}
+    <li style="font-family: {{ value }}">
+        <div class="row">
+            <div class="col-sm-3">
+                <h2 class="pl_title" style="font-family: {{ value }}">{{ name }}</h2>
+                {{ comment }}
+                <code>{{ tag }}</code>
+            </div>
+            <div class="col-sm-9">
+                <div class="pl-alphabet">
+                    <div class="pl-lower">abcdefghijklmnopqrstuvwxyz</div>
+                    <div class="pl-upper">ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+                    <div class="pl-numbers">1234567890</div>
+                </div>
+                
+                <h4 class="pl_title">Available Styles</h4>
+                <div class="row pl-fontStyles">
+                    <div class="col-sm-2 pl-{{title}}-light">
+                        <span>Light</span><br>
+                        <span><em>Light Italics</em></span>
+                    </div>
+                    <div class="col-sm-2">
+                        Regular<br>
+                        <em>Regular Italics</em>
+                    </div>
+                    <div class="col-sm-2 pl-{{title}}-bold">
+                        <strong>Bold</strong><br>
+                        <strong><em>Bold Italics</em></strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+    </li>
+    {{/ items }}
+</ul>
+{{/ molecules-layout-container}}

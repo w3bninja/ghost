@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="">
+  <head>
+    <title>Title ipsum dolor sit (39 characters)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="../../css/style.css?1601496151408" media="all" />
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1601496151408" media="all" />
+
+    <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+    
+    <!-- End Pattern Lab -->
+
+  </head>
+  <body class=""><div class="container ">
+    <small>To add to these items, use Sass variables that start with <code>$font-family-</code> in <code>./source/css/scss/abstracts/_variables.scss</code></small>
+    
+    <ul>
+        <li style="font-family: &quot;AtlasGrotesk&quot;, &quot;Arial&quot;, sans-serif">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2 class="pl_title" style="font-family: &quot;AtlasGrotesk&quot;, &quot;Arial&quot;, sans-serif">AtlasGrotesk</h2>
+                    This is the primary font used.
+                    <code>$font-family-primary</code>
+                </div>
+                <div class="col-sm-9">
+                    <div class="pl-alphabet">
+                        <div class="pl-lower">abcdefghijklmnopqrstuvwxyz</div>
+                        <div class="pl-upper">ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+                        <div class="pl-numbers">1234567890</div>
+                    </div>
+                    
+                    <h4 class="pl_title">Available Styles</h4>
+                    <div class="row pl-fontStyles">
+                        <div class="col-sm-2 pl-primary-light">
+                            <span>Light</span><br>
+                            <span><em>Light Italics</em></span>
+                        </div>
+                        <div class="col-sm-2">
+                            Regular<br>
+                            <em>Regular Italics</em>
+                        </div>
+                        <div class="col-sm-2 pl-primary-bold">
+                            <strong>Bold</strong><br>
+                            <strong><em>Bold Italics</em></strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <hr>
+        </li>
+        <li style="font-family: &quot;Sentinel&quot;, serif">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2 class="pl_title" style="font-family: &quot;Sentinel&quot;, serif">Sentinel</h2>
+                    This is the secondary font used.
+                    <code>$font-family-secondary</code>
+                </div>
+                <div class="col-sm-9">
+                    <div class="pl-alphabet">
+                        <div class="pl-lower">abcdefghijklmnopqrstuvwxyz</div>
+                        <div class="pl-upper">ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+                        <div class="pl-numbers">1234567890</div>
+                    </div>
+                    
+                    <h4 class="pl_title">Available Styles</h4>
+                    <div class="row pl-fontStyles">
+                        <div class="col-sm-2 pl-secondary-light">
+                            <span>Light</span><br>
+                            <span><em>Light Italics</em></span>
+                        </div>
+                        <div class="col-sm-2">
+                            Regular<br>
+                            <em>Regular Italics</em>
+                        </div>
+                        <div class="col-sm-2 pl-secondary-bold">
+                            <strong>Bold</strong><br>
+                            <strong><em>Bold Italics</em></strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <hr>
+        </li>
+    </ul>
+</div>
+<!--DO NOT REMOVE-->
+<script type="text/json" id="pl-pattern-data-footer" class="pl-js-pattern-data">
+  {"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"molecules-layout-container","lineagePath":"../../patterns/01-molecules-layout-_layout-container\\01-molecules-layout-_layout-container.rendered.html"}],"lineage":[{"lineagePattern":"molecules-layout-container","lineagePath":"../../patterns/01-molecules-layout-_layout-container\\01-molecules-layout-_layout-container.rendered.html"}],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"fonts"},"patternExtension":"hbs","patternName":"Font Families","patternPartial":"atoms-font-families","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+</script>
+
+<script>
+  window.patternData = {"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"molecules-layout-container","lineagePath":"../../patterns/01-molecules-layout-_layout-container\\01-molecules-layout-_layout-container.rendered.html"}],"lineage":[{"lineagePattern":"molecules-layout-container","lineagePath":"../../patterns/01-molecules-layout-_layout-container\\01-molecules-layout-_layout-container.rendered.html"}],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"fonts"},"patternExtension":"hbs","patternName":"Font Families","patternPartial":"atoms-font-families","patternState":"","patternEngineName":"handlebars","extraOutput":{}};
+</script>
+
+<script>
+  /*!
+   * scriptLoader - v0.1
+   *
+   * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+   * Licensed under the MIT license
+   *
+   */
+
+  var scriptLoader = {
+
+    run: function(js,cb,target) {
+      var s  = document.getElementById(target+'-'+cb);
+      for (var i = 0; i < js.length; i++) {
+        var src = (typeof js[i] != 'string') ? js[i].src : js[i];
+        var c   = document.createElement('script');
+        c.src   = '../../'+src+'?'+cb;
+        if (typeof js[i] != 'string') {
+          if (js[i].dep !== undefined) {
+            c.onload = function(dep,cb,target) {
+              return function() {
+                scriptLoader.run(dep,cb,target);
+              }
+            }(js[i].dep,cb,target);
+          }
+        }
+        s.parentNode.insertBefore(c,s);
+      }
+    }
+
+  }
+</script>
+
+<script id="pl-js-polyfill-insert-1601496151408">
+  (function() {
+    if (self != top) {
+      var cb = '1601496151408';
+      var js = [];
+      scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+    }
+  })();
+</script>
+
+
+<script type="module">
+  // always load Pattern-specific JS so UI like accordions, etc can continue to work even when viewed as a standalone HTML page
+  import('../../styleguide/js/patternlab-pattern.modern.js');
+</script>
+
+<script id="pl-js-insert-1601496151408" nomodule>
+  /*! loadJS: load a JS file asynchronously. [c]2014 @scottjehl, Filament Group, Inc. (Based on http://goo.gl/REQGQ by Paul Irish). Licensed MIT */
+  !function(e){var t=function(t,n){"use strict";var o=e.document.getElementsByTagName("script")[0],r=e.document.createElement("script");return r.src=t,r.async=!0,o.parentNode.insertBefore(r,o),n&&"function"==typeof n&&(r.onload=n),r};"undefined"!=typeof module?module.exports=t:e.loadJS=t}("undefined"!=typeof global?global:this);
+
+  // always load Pattern-specific JS so UI like accordions, etc can continue to work even when viewed as a standalone HTML page
+  loadJS('../../styleguide/js/patternlab-pattern.js');
+</script>
+
+
+</body>
+</html>

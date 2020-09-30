@@ -1,0 +1,9 @@
+.footer{background:$color-neutral-white; padding:10vh 0 0 0;
+    .footer-top{background:url(../images/skyline.jpg) repeat-x bottom center; background-size: 1800px;}
+    .footer-bottom{padding:15vh 0; background:$color-brand-blue-dark; color:$color-neutral-white;
+        a{color:$color-neutral-white;}
+    }
+    hr{background:$color-neutral-gray-13;}
+
+    .steamboat{max-width:260px; position:relative; margin:0 auto; bottom:-8px; left:-6px;}
+}

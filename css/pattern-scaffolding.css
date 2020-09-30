@@ -1,0 +1,373 @@
+/**
+ * This stylesheet is for styles you want to include only when displaying demo
+ * styles for grids, animations, color swatches, etc.
+ * These styles will not be your production CSS.
+ */
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
+/**
+ * CONTENTS
+ *
+ * COLORS
+ * Brand Colors...............Globally-available variables and config
+ * Neutral Colors.............Grayscale colors, including white and black
+ * Utility Colors.............Info, Warning, Error, Success
+ *
+ * TYPOGRAPHY
+ * Icon Sizing................
+ *
+ * TYPOGRAPHY
+ * Font Families..............The fonts used in the design system
+ * Sizing.....................Font sizing
+ *
+ * LAYOUT
+ * Max-widths.................Maximum layout container width
+ *
+
+ * SPACING
+ * Spacing defaults...........Spacing between elements
+ *
+ * BORDERS
+ * Border Width...............Border thicknesses
+ * Border Radius..............Border radius definitions
+ *
+ * ANIMATION
+ * Animation Speed............Transition/animation speed variables
+ * Animation easing...........Easing variables
+ *
+ * BREAKPOINTS
+ * Breakpoints................Global breakpoint definitions
+ */
+/*------------------------------------*\
+     #COLORS
+ \*------------------------------------*/
+/**
+ * Brand Colors
+ * 1) Brand=specific colors
+ */
+/**
+ * Accent Colors
+ * 1) Brand=accent colors
+ */
+/**
+ * Neutral Colors
+ * 1) Neutral colors are grayscale values used throughout the UI
+ */
+/**
+ * Utility Colors
+ * 1) Utility colors are colors used to provide feedback, such as alert messages,
+ *    form validation, etc.
+ */
+/*------------------------------------*\
+    #TYPOGRAPHY
+\*------------------------------------*/
+/**
+ * Font Family
+ */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;600&Open+Sans&display=swap");
+/**
+ * Font Weights
+ */
+/**
+ * Font Sizing
+ */
+/**
+ * Line Height
+ */
+/*------------------------------------*\
+    #ICONS
+\*------------------------------------*/
+/**
+ * Icon Sizing
+ */
+/**
+ * Line Height
+ */
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
+/**
+ * Max Width
+ */
+/*------------------------------------*\
+    #SPACING
+\*------------------------------------*/
+/**
+ * Spacing and offsets
+ * 1) Used to space grids and body padding
+ */
+/*------------------------------------*\
+    #BORDERS
+\*------------------------------------*/
+/**
+ * Border widths
+ */
+/**
+ * Border radius
+ */
+/*------------------------------------*\
+    #ANIMATION
+\*------------------------------------*/
+/**
+ * Transition Speed
+ */
+/**
+ * Transition Ease
+ */
+/*------------------------------------*\
+    #BREAKPOINTS
+\*------------------------------------*/
+/**
+ * Breakpoints used in media queries
+ * 1) These are not the only breakpoints used, but they provide a few defaults
+ */
+:root {
+  --pl-border-color: #EEE;
+  --pl-border-radius: 8px;
+  --pl-grid-gap: 1rem;
+  --pl-color-fpo: #69b3e7;
+  --pl-color-fpo-light: #edf6fc; }
+
+hr {
+  margin: 5vh 0;
+  border: 0;
+  height: 1px;
+  background: #EEE; }
+
+.pl-c-pattern__header {
+  border: 1px solid #EEE;
+  padding: 10px !important;
+  background: #EEE;
+  overflow: hidden; }
+  .pl-c-pattern__header h3.pl-c-pattern__title {
+    padding: 0;
+    margin: 0;
+    float: left; }
+    .pl-c-pattern__header h3.pl-c-pattern__title a {
+      padding: 10px; }
+  .pl-c-pattern__header .pl-c-pattern__extra-toggle {
+    position: relative;
+    float: right; }
+
+.pl-c-category__title {
+  margin-bottom: 10px; }
+
+.sg-grid-item {
+  min-height: 50px;
+  background: #0086B3;
+  margin-bottom: 20px; }
+
+.pl-js-pattern-example small {
+  display: block;
+  margin-bottom: 20px; }
+
+.pl-js-pattern-example .pl_title {
+  margin-top: 40px; }
+
+.pl-js-pattern-example .pl-alphabet {
+  letter-spacing: 5px;
+  font-size: 1.8em;
+  background: #eee;
+  padding: 20px; }
+
+.pl-js-pattern-example .pl-fontStyles .pl-primary-light {
+  font-family: "AtlasLight", Arial, sans-serif; }
+
+.pl-js-pattern-example .pl-fontStyles .pl-secondary-light {
+  font-family: "SentinelLight", Times, serif; }
+
+.pl-js-pattern-example .pl-fontStyles .pl-primary-bold {
+  font-family: "AtlasBold", Arial, sans-serif; }
+
+.pl-js-pattern-example .pl-fontStyles .pl-secondary-bold {
+  font-family: "SentinelBold", Times, serif; }
+
+#sg-patterns {
+  box-sizing: border-box !important;
+  max-width: 100%;
+  padding: 0 0.5em; }
+
+.demo-animate {
+  background: #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  border-radius: var(--pl-border-radius);
+  cursor: pointer; }
+
+.sg-colors {
+  padding: 40px; }
+
+.sg-color {
+  margin-bottom: 20px;
+  border: 1px solid var(--pl-border-color); }
+
+.sg-swatch {
+  display: block;
+  height: 4em; }
+
+.sg-label {
+  display: block;
+  font-size: 90%;
+  line-height: 1; }
+  .sg-label li {
+    padding: 10px 15px;
+    border-top: 1px solid var(--pl-border-color); }
+
+/**
+ * Icon grid
+ * 1) Generated by Gul-SVG-Sprites
+ */
+.icon-grid {
+  margin-top: 20px; }
+
+.icon-grid__item {
+  border: 1px solid var(--pl-border-color);
+  padding: 8px;
+  margin-bottom: 20px;
+  font-size: 1.8em; }
+
+.icon-grid .icon-grid__spacing {
+  font-size: auto; }
+
+.icon-grid__label {
+  font-size: 10px;
+  display: block;
+  margin-top: 10px; }
+
+.icon-boxes h2 {
+  font-size: 1rem; }
+
+/**
+* For placeholder only block
+* 1) Used for placeholder blocks for layouts
+*/
+.fpo {
+  background: var(--pl-color-fpo-light);
+  border: 1px dashed var(--pl-color-fpo);
+  border-radius: 5px;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--pl-color-fpo); }
+
+.sg-pattern-example small {
+  display: none; }
+
+/**
+ * Add height and overflow to two column fixed layout to show functionality only in style-guide example.
+ */
+.sg-pattern-example .l-page-layout--two-column-fixed {
+  height: 10rem;
+  overflow: auto; }
+
+/**
+ * Add min-height of 0 to two column fixed to help with showing functionality only in style-guide example.
+ */
+.sg-pattern-example .l-page-layout--two-column-fixed .l-page-layout__secondary {
+  min-height: 0; }
+
+/**
+ * FPO block within two column fixed layout within secondary section
+ * 1) Width expands entire container at small screens
+ */
+.sg-pattern-example
+.l-page-layout--two-column-fixed
+.l-page-layout__secondary
+.fpo-block {
+  width: 100%;
+  /* 1 */ }
+
+/**
+ * FPO block within two column fixed layout within secondary section larger screens
+ * 1) Set height to 100% of viewport height
+ * 2) Set width = width of vertical header
+ */
+@media all and (min-width: 70em) {
+  .sg-pattern-example
+.l-page-layout--two-column-fixed
+.l-page-layout__secondary
+.fpo-block {
+    width: 20rem;
+    /* 1 */
+    height: 100vh;
+    /* 2 */
+    margin-bottom: 0; } }
+
+/**
+ * Two column fixed layout within pattern example
+ * 1) Set height to height of placeholder content secondary section
+ * 2) Set overflow to auto so the secondary section stays fixed while the main section scrolls
+ */
+.sg-pattern-example .l-page-layout--two-column-fixed {
+  height: 18.3rem;
+  overflow: auto; }
+
+/**
+ * Secondary section within pattern example and two-column fixed at larger screens
+ * 1) Position absolute to make this pattern similar to fixed vertical header
+ * 2) Height inherits so it doesn't span longer than the pattern window on "All" PL page
+ * 3) Float this left to get layout sections side by side within PL "View All" section
+ */
+@media all and (min-width: 70em) {
+  .sg-pattern-example
+.l-page-layout--two-column-fixed
+.l-page-layout__secondary {
+    position: absolute;
+    /* 1 */
+    height: inherit;
+    /* 2 */
+    float: left;
+    /* 3 */ } }
+
+/**
+ *  Fpo block within pattern example, two column fixed, and secondary section
+ * 1) Make fpo block width of the container on small screens
+ */
+.sg-pattern-example
+.l-page-layout--two-column-fixed
+.l-page-layout__secondary
+.fpo-block {
+  width: 100%;
+  /* 1 */ }
+
+/**
+ * FPO Block Within pattern example, two column fixed, and secondary layout larger screens
+ * 1) Added width similar to style guide vertical header
+ * 2) Height inherits so it doesn't span longer than the pattern window on "All" PL page
+ */
+@media all and (min-width: 70em) {
+  .sg-pattern-example
+.l-page-layout--two-column-fixed
+.l-page-layout__secondary
+.fpo-block {
+    width: 20rem;
+    /* 1 */
+    height: inherit;
+    /* 2 */ } }
+
+/**
+ * Add height of main to get appearance of side bar staying fixed while main window scrolls.
+ */
+.sg-pattern-example .l-page-layout--two-column-fixed .l-page-layout__main {
+  height: 30rem; }
+
+/**
+ * Add height of fpo block to equal height of main to help with scrolling main window/fixed sidebar effect.
+ */
+.sg-pattern-example
+.l-page-layout--two-column-fixed
+.l-page-layout__main
+.fpo-block {
+  height: 30rem;
+  margin-bottom: 0; }
+
+/**
+ * Vertical header in pattern example at large screens
+ */
+@media all and (min-width: 70em) {
+  .sg-pattern-example .c-header--vertical {
+    max-width: 20rem; } }

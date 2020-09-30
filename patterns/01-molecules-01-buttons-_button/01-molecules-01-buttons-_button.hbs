@@ -1,0 +1,9 @@
+<{{# buttonTag }}button{{/ buttonTag }}{{# linkTag }}a href="{{ url }}"{{/ linkTag }} class="btn {{ styleModifier }}" {{# buttonTitle}}title="{{ buttonTitle }}"{{/ buttonTitle}}{{# buttonIsToggle }} data-btn-icon-swap="{{ iconPath }}{{ buttonIconSwap }}"{{/ buttonIsToggle }}>
+        {{#if buttonIcon }}
+        {{> atoms-icon icon=buttonIcon }}
+        {{/ if }}
+        
+        {{#if buttonText }}
+        {{ buttonText }}
+        {{/ if }}
+</{{# buttonTag }}button{{/ buttonTag }}{{# linkTag }}a{{/ linkTag }}><!-- end c-btn -->

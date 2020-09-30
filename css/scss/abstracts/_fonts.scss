@@ -1,0 +1,99 @@
+/*
+        This font software is the property of Commercial Type.
+
+        You may not modify the font software, use it on another website, or install it on a computer.
+
+        License information is available at http://commercialtype.com/eula
+        For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+        Copyright (C) 2020 Schwartzco Inc.
+        License: 2009-LHDAEK     
+*/
+@font-face {
+    font-family: 'AtlasBoldItalics';
+    src: url('../fonts/Atlas Grotesk/AtlasGrotesk-BoldItalic-Web.woff2') format('woff2'),
+            url('../fonts/Atlas Grotesk/AtlasGrotesk-BoldItalic-Web.woff') format('woff');
+    font-weight:  700;
+    font-style:   italic;
+    font-stretch: normal;
+}
+.AtlasGrotesk-BoldItalic-Web {font-family:'Atlas'; font-weight:700; font-style:italic; font-stretch:normal; display:swap;}
+@font-face {
+    font-family: 'AtlasBold';
+    src: url('../fonts/Atlas Grotesk/AtlasGrotesk-Bold-Web.woff2') format('woff2'),
+            url('../fonts/Atlas Grotesk/AtlasGrotesk-Bold-Web.woff') format('woff');
+    font-weight:  700;
+    font-style:   normal;
+    font-stretch: normal;
+}
+.AtlasGrotesk-Bold-Web {font-family: 'Atlas'; font-weight:  700; font-style:   normal; font-stretch: normal; display:swap;}
+
+@font-face {
+    font-family: 'AtlasItalics';
+    src: url('../fonts/Atlas Grotesk/AtlasGrotesk-RegularItalic-Web.woff2') format('woff2'),
+            url('../fonts/Atlas Grotesk/AtlasGrotesk-RegularItalic-Web.woff') format('woff');
+    font-weight:  400;
+    font-style:   italic;
+    font-stretch: normal;
+}
+.AtlasGrotesk-RegularItalic-Web {font-family: 'Atlas'; font-weight:  400; font-style:   italic; font-stretch: normal; display:swap;}
+@font-face {
+    font-family: 'Atlas';
+    src: url('../fonts/Atlas Grotesk/AtlasGrotesk-Regular-Web.woff2') format('woff2'),
+            url('../fonts/Atlas Grotesk/AtlasGrotesk-Regular-Web.woff') format('woff');
+    font-weight:  400;
+    font-style:   normal;
+    font-stretch: normal;
+}
+.AtlasGrotesk-Regular-Web {font-family: 'Atlas'; font-weight:  400; font-style:   normal; font-stretch: normal; display:swap;}
+
+
+@font-face {
+    font-family: 'AtlasLightItalics';
+    src: url('../fonts/Atlas Grotesk/AtlasGrotesk-LightItalic-Web.woff2') format('woff2'),
+            url('../fonts/Atlas Grotesk/AtlasGrotesk-LightItalic-Web.woff') format('woff');
+    font-weight:  300;
+    font-style:   italic;
+    font-stretch: normal;
+}
+.AtlasGrotesk-LightItalic-Web {font-family: 'Atlas'; font-weight:  300; font-style:   italic; font-stretch: normal; display:swap;}
+@font-face {
+    font-family: 'AtlasLight';
+    src: url('../fonts/Atlas Grotesk/AtlasGrotesk-Light-Web.woff2') format('woff2'),
+            url('../fonts/Atlas Grotesk/AtlasGrotesk-Light-Web.woff') format('woff');
+    font-weight:  300;
+    font-style:   normal;
+    font-stretch: normal;
+}
+.AtlasGrotesk-Light-Web {font-family: 'Atlas'; font-weight:  300; font-style:   normal; font-stretch: normal; display:swap;}
+
+
+
+
+@font-face {
+        font-family: 'SentinelLight';
+        src: url('../fonts/Sentenel/SentinelSSm-Light-Pro_Web.woff2') format('woff2'),
+                url('../fonts/Atlas Grotesk/SentinelSSm-Light-Pro_Web.woff') format('woff');
+        font-weight:  100;
+        font-style:   normal;
+        font-stretch: normal;
+        display:swap;
+}
+@font-face {
+        font-family: 'Sentinel';
+        src: url('../fonts/Sentenel/SentinelSSm-Medium-Pro_Web.woff2') format('woff2'),
+                url('../fonts/Atlas Grotesk/SentinelSSm-Medium-Pro_Web.woff') format('woff');
+        font-weight:  300;
+        font-style:   normal;
+        font-stretch: normal;
+        display:swap;
+}
+@font-face {
+        font-family: 'SentinelBold';
+        src: url('../fonts/Sentenel/SentinelSSm-Bold-Pro_Web.woff2') format('woff2'),
+                url('../fonts/Atlas Grotesk/SentinelSSm-Bold-Pro_Web.woff') format('woff');
+        font-weight:  900;
+        font-style:   normal;
+        font-stretch: normal;
+        display:swap;
+}

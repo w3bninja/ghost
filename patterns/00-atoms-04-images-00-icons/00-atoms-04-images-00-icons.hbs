@@ -1,0 +1,15 @@
+<small>{{{ meta.description }}}</small>
+{{#each icons}}
+<hr>
+<h3>{{ title }}</h3>
+<div class="row icon-grid">
+    {{#each group}}
+    <div class="col-sm-1">
+        <div class=" text-center icon-grid__item">
+        <div class="icon-grid__spacing">{{> atoms-icon icon=icon }}</div>
+        <span class="icon-grid__label">{{ icon }}</span>
+        </div>
+    </div>
+    {{/each}}
+</div>
+{{/each}}

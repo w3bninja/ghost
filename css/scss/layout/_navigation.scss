@@ -1,0 +1,42 @@
+// HORIZONTAL NAVIGATION
+.nav{
+    li{
+        a{padding:0.5em; display:block; color:$color-brand-blue;
+            &:hover{text-decoration:none;background:$color-neutral-gray-07;}
+        }
+    }
+    &.nav-primary{
+        li{
+            a{color:$color-brand-blue-dark;}
+        }
+    }
+    &.nav-secondary{
+        li{
+            a{font-size:0.8em; color:$color-neutral-white;
+                &:hover{background:$color-brand-blue-01;}
+            }
+        }
+    }
+    &.nav-language{
+        li{border-left:1px solid $color-neutral-gray-07;
+            &:first-child{border:0;}
+            a{font-size:0.9em; padding:0.2em 0.5em;}
+        }
+    }
+}
+// VERTICAL NAVIGATION
+.v-nav{
+    li{
+        a{font-size:0.9em; padding:0.1em; color:$color-brand-blue;
+            &:hover{background:$color-neutral-gray-13;}
+        }
+    }
+    .desc{margin-bottom:20px;}
+}
+
+.mega-menu{
+    h2{font-family:$font-family-primary; margin-bottom:20px;
+        .btn{float:right;}
+    }
+    h6{background:$color-brand-blue-dark; color:$color-neutral-white; padding:10px;}
+}

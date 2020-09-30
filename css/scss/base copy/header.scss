@@ -1,0 +1,10 @@
+.has-slogo{display:inline-block;}
+.slogo{display:inline-block; padding-left:20px; border-left:1px solid $color-neutral-gray-27; margin-left:20px;}
+
+.header{border-bottom:1px solid $color-neutral-gray-07;
+    .header-top{background:$color-brand-blue-dark;
+        a{color:$color-neutral-white; font-size:0.9em;}
+        .btn{border-radius:0;}
+    }
+    .header-bottom{padding:20px 0;}
+}

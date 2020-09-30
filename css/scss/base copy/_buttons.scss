@@ -1,0 +1,23 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+/**
+ * Button and submit inputs reset
+ * 1) These should be styled using c-btn
+ */
+button {
+    cursor: pointer;
+    border:0;
+    background:$color-btn-primary;
+    padding:$spacing-small;
+    border-radius:$border-radius;
+}
+
+
+.btn{
+    &.btn-primary{background:$color-brand-blue; border:0;
+        &:hover, &:focus, &.active{background:$color-brand-blue-01;}
+        &:not(:disabled):not(.disabled).active{background:$color-brand-blue-01;}
+    }
+}

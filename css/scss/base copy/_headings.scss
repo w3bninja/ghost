@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    #HEADINGS
+\*------------------------------------*/
+
+// Heading 1 base styles
+h1 {
+	@include typographyHeadingXl();
+	font-family: $font-family-primary;
+	font-weight:  100;
+}
+
+// Heading 2 base styles
+h2 {
+	@include typographyHeadingLarge();
+	font-family: $font-family-secondary;
+}
+
+// Heading 3 base styles
+h3 {
+	@include typographyHeadingMed2();
+	font-family: $font-family-secondary;
+}
+
+// Heading 4 base styles
+ h4 {
+	@include typographyHeadingMed();
+	font-family: $font-family-secondary;
+}
+
+// Heading 5 base styles
+ h5 {
+	@include typographyHeadingMed();
+	font-family: $font-family-secondary;
+}
+
+// Heading 6 base styles
+ h6 {
+	@include typographyHeadingMed();
+	font-family: $font-family-secondary;
+}
